@@ -11,3 +11,6 @@ pip install -r requirements.txt
 python main.py
 ```
 3. Open local API docs [http://localhost:5000/docs](http://localhost:5000/docs)
+
+## Test it out
+https://api--hoyocodescraper--y28bph4n87kq.code.run/docs
