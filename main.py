@@ -12,7 +12,7 @@ genshin_session = CachedSession('genshin_cache', expire_after=600)
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run("main:app", host="127.0.0.1", port=5000, log_level="info", reload=True)
+    uvicorn.run("main:app", host="0.0.0.0", port=5000, log_level="info", reload=True)
 
 
 @app.get("/", include_in_schema=False)
