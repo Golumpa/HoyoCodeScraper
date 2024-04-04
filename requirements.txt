@@ -1,0 +1,4 @@
+beautifulsoup4~=4.12.3
+fastapi~=0.110.1
+uvicorn~=0.29.0
+requests-cache~=1.2.0
